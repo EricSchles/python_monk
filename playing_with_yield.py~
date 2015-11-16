@@ -1,0 +1,4 @@
+def runner(a,b,op):
+    yield(a,b)
+
+print runner(5,6) lambda a,b: a + b
